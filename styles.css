@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header {
+    font-family: 'Roboto', sans-serif;
+    background-color: #4b64d3;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    height: 50px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+    color: yellow;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+.flex-outer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+.flex-outer > li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.flex-outer > li > a {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.flex-outer > li > a:hover {
+    font-family: 'Roboto', sans-serif;
+    background-color: #4b64d3;
+    border-radius: 8px;
+    color: white;
+}
+
+.flex-inner {
+    display: flex;
+    align-items: center;
+}
+
+.flex-inner > img {
+    max-width: 35%;
+    height: auto; 
+}
+
+.flex-inner > p {
+    line-height: 1.7;
+    padding-left: 10px;
+    flex-grow: 1; 
+}
+
+form {
+    font-family: 'Roboto', sans-serif;
+    width: 60%;
+    margin: 0 auto;
+}
+
+form ul {
+    list-style: none;
+}
+
+form ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+form ul li label {
+    display: block;
+}
+
+form ul li input,
+form ul li textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #4b64d3;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer address {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+#contacto {
+    background-color: #f5f5f5;
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#contacto h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+form ul {
+    list-style: none;
+}
+
+form ul li {
+    margin-bottom: 20px;
+}
+
+form ul li label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+}
+
+form ul li input[type="text"],
+form ul li input[type="email"],
+form ul li textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 13px;
+    resize: none;
+
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+#contacto address {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    color: #940707;
+}
